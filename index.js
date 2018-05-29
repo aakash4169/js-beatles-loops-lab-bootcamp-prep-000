@@ -6,3 +6,14 @@ function theBeatlesPlay(mus,inst){
   }
   return arr;
 }
+
+function johnLennonFacts(facts){
+  var i=0;
+  var arr=new Array();
+  while(facts.length>i){
+    var str=facts[i]+"!!!";
+    arr.push(str);
+  }
+  
+  return arr;
+}
